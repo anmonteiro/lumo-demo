@@ -1,0 +1,9 @@
+#!/usr/local/bin/lumo
+
+(def fs (js/require "fs"))
+
+
+(fs.readdir "."
+  (fn [_ files]
+    (doseq [file files]
+      (println file))))
