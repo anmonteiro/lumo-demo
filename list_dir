@@ -1,4 +1,4 @@
-#!/usr/local/bin/lumo
+#!/usr/bin/env lumo
 
 (def fs (js/require "fs"))
 
